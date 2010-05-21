@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/gemone0/Workspace/petfinder'
+let g:netrw_dirhist_2='/Users/gemone0/Workspace/petfinder/spec'
+let g:netrw_dirhist_3='/Users/gemone0/Desktop/Peep Code/peepcode-046-vim-i-code'
+let g:netrw_dirhist_4='/Users/gemone0/Desktop/Peep Code/peepcode-046-vim-i-code/tutorial-apache-files'
+let g:netrw_dirhist_5='/Users/gemone0/Workspace/petfinder-php'
+let g:netrw_dirhist_6='/Users/gemone0/Workspace'
+let g:netrw_dirhist_7='/Users/gemone0/Workspace/petfinder-php'
