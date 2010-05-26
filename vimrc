@@ -29,7 +29,7 @@ set ruler                         " Show cursor position.
 set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
 
-set wrap                          " Turn on line wrapping.
+set wrap!                         " Turn on line wrapping.
 set scrolloff=3                   " Show 3 lines of context around the cursor.
 
 set title                         " Set the terminal's title
@@ -80,4 +80,8 @@ map <leader>tm :tabmove
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 " autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 
-
+" Shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR>
+ 
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:▸\ ,eol:¬
